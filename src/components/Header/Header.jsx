@@ -4,11 +4,10 @@ import SearchIcon from '@material-ui/icons/Search'
 const Header = () => {
   return (
     <div className="header">
-      <h1>header</h1>
       <div className="header__left">
-        <img src="" alt="" />
+        <img src="/linkedin.png" alt="linkedin-icon" />
       </div>  
-      <div className="header__right">
+      <div className="header__search">
         <SearchIcon />
         <input type="text" />
       </div>
