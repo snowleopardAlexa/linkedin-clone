@@ -7,9 +7,14 @@ const Header = () => {
       <div className="header__left">
         <img src="/linkedin.png" alt="linkedin-icon" />
       </div>  
+
       <div className="header__search">
         <SearchIcon />
         <input type="text" />
+      </div>
+
+      <div className="header-right">
+        
       </div>
     </div>
   )
