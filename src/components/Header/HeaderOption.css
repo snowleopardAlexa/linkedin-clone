@@ -7,7 +7,11 @@
     cursor: pointer;
 }
 
+.headerOption__title {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 .headerOption:hover {
     color: black;
-    
 }
