@@ -5,9 +5,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
         <div className="sidebar__top">
-            <img src="" alt="background-image" />
+            <img src="/background.jpg" alt="background" />
             <Avatar />
-            <h2>Alexa</h2>
+            <h2>Aleksandra Slomska</h2>
             <h4>aleksandravslomska@gmail.com</h4>
         </div>
         <div className="sidebar__stats">
@@ -18,6 +18,9 @@ const Sidebar = () => {
             <div className="sidebar_stat">
                <p>Whos on post</p>
                <p className="sidebar__statNumber">2,345</p>
+            </div>
+            <div className="sidebar__bottom">
+                <p>Recent</p>
             </div>
         </div>
     </div>
