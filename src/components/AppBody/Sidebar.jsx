@@ -19,9 +19,9 @@ const Sidebar = () => {
                <p>Whos on post</p>
                <p className="sidebar__statNumber">2,345</p>
             </div>
-            <div className="sidebar__bottom">
+        </div>
+        <div className="sidebar__bottom">
                 <p>Recent</p>
-            </div>
         </div>
     </div>
   )
