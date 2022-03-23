@@ -75,15 +75,22 @@
     margin-top: 10px;
 }
 
-.sidebar__recentItems {
+.sidebar__bottom > p {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+.sidebar__recentItem {
     display: flex;
-    font-size: 13px;
+    font-size: 0.9rem;
     color: gray;
     cursor: pointer;
     font-weight: 600;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
-.sidebar__recentItems:hover {
+.sidebar__recentItem:hover {
     background-color: whitesmoke;
     border-radius: 10px;
     cursor: pointer;
