@@ -1,4 +1,7 @@
 import { Avatar } from '@material-ui/core'
+import ThumbUpAltOutlinedIcon from '@material-ui/icons'
+import InputOption from './InputOption/InputOption'
+
 import './Posts.css'
 
 const Posts = ({ name, description, message, photoUrl }) => {
@@ -13,6 +16,9 @@ const Posts = ({ name, description, message, photoUrl }) => {
       </div>
       <div className="post__body">
           <p>Message goes here</p>
+      </div>
+      <div className="post__butons">
+          <InputOption Icon={ThumbUpAltOutlinedIcon} title="Like" color="gray" />
       </div>
     </div>
   )

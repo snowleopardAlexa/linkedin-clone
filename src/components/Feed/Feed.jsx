@@ -4,7 +4,7 @@ import ImageIcon from '@material-ui/icons/Image'
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
 import EventNoteIcon from '@material-ui/icons/EventNote'
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
-import InputOption from './InputOption/InputOption'
+import InputOption from './Posts/InputOption/InputOption'
 import Posts from './Posts/Posts'
 
 function Feed() {
