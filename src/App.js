@@ -28,7 +28,7 @@ useEffect(() => {
       dispatch(logout())
     }
   })
-}, [])
+})
 
   return (
     <>

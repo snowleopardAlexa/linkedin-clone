@@ -20,7 +20,6 @@ const logoutOfApp = () => {
   auth.signOut()
 }
 
-
   return (
     <div className="header">
       <div className="header__left">
@@ -39,7 +38,7 @@ const logoutOfApp = () => {
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
         <HeaderOption 
-          avatar={user.photoUrl} 
+          avatar={true} 
           title="me" 
           onClick={logoutOfApp}
         />
