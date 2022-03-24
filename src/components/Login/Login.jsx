@@ -1,6 +1,11 @@
 import './Login.css'
 
 const Login = () => {
+
+const loginToApp = () => {}
+
+const register = () => {}
+
   return (
     <div className="login">
       <img 
@@ -13,8 +18,15 @@ const Login = () => {
         <input placeholder="Profile pic URL (optional)" type="text" />
         <input placeholder="Email" type="text" />
         <input placeholder="Password" type="password" />
-        <button>Sign In</button>
+        <butto type="submit">Sign In</butto>
       </form>
+
+      <p>Not a member?
+          <span 
+            className="login__register" 
+            onClick={register}
+          >Register Now</span>
+      </p>
     </div>
   )
 }
