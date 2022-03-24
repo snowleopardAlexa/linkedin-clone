@@ -1,8 +1,11 @@
 import './InputOption.css'
 
-const InputOption = () => {
+const InputOption = ({ title, Icon, color }) => {
   return (
-    <div>InputOption</div>
+    <div className="inputOption">
+      <Icon style={{ color: color }} />
+      <h4>{title}</h4>
+    </div>
   )
 }
 
