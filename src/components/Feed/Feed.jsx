@@ -1,3 +1,4 @@
+import { useState } from "react"
 import './Feed.css'
 import CreateIcon from '@material-ui/icons/Create'
 import ImageIcon from '@material-ui/icons/Image'
@@ -9,6 +10,9 @@ import Posts from './Posts/Posts'
 
 
 function Feed() {
+
+  const [posts, setPosts] = useState([])
+
   return (
     <div className="feed">
       <div class="feed__inputContainer">
@@ -42,6 +46,9 @@ function Feed() {
             />
           </div>
       </div>
+      {posts.map((post) => (
+       <Post />
+      ))}
       <Posts 
         name="Aleksandra Slomska"
         description="This is a msg"

@@ -4,7 +4,6 @@ import ChatOutlinedIcon from '@material-ui/icons/ChatOutlined'
 import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined'
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined'
 import InputOption from './InputOption/InputOption'
-
 import './Posts.css'
 
 const Posts = ({ name, description, message, photoUrl }) => {
@@ -17,10 +16,12 @@ const Posts = ({ name, description, message, photoUrl }) => {
               <p>{description}</p>
           </div>
       </div>
+
       <div className="post__body">
           <p>{message}</p>
       </div>
-      <div className="post__butons">
+
+      <div className="post__buttons">
           <InputOption Icon={ThumbUpAltOutlinedIcon} title="Like" color="gray" />
           <InputOption Icon={ChatOutlinedIcon} title="Comment" color="gray" />
           <InputOption Icon={ShareOutlinedIcon} title="Share" color="gray" />

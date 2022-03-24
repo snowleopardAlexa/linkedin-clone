@@ -1,4 +1,4 @@
-.post {
+.posts {
   background-color: white;
   padding: 15px;
   margin-bottom: 10px;
@@ -26,4 +26,8 @@
 
 .post__info > p {
     font-size: 0.9rem;
+}
+
+.post__buttons {
+    display: flex;
 }
