@@ -1,10 +1,10 @@
 import './Feed.css'
 import CreateIcon from '@material-ui/icons/Create'
 import ImageIcon from '@material-ui/icons/Image'
-import InputOption from '@material-ui/icons/InputOption'
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
 import EventNoteIcon from '@material-ui/icons/EventNote'
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
+import InputOption from './InputOption/InputOption'
 
 function Feed() {
   return (
