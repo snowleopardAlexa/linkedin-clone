@@ -5,6 +5,7 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions'
 import EventNoteIcon from '@material-ui/icons/EventNote'
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
 import InputOption from './InputOption/InputOption'
+import Posts from './Posts/Posts'
 
 function Feed() {
   return (
@@ -26,20 +27,21 @@ function Feed() {
             <InputOption 
               title="Photo" 
               Icon={SubscriptionsIcon} 
-              color="#70B5F9"
+              color="#E7A33E"
             />
             <InputOption 
               title="Event" 
               Icon={EventNoteIcon} 
-              color="#70B5F9"
+              color="#C0CBCD"
             />
             <InputOption 
               title="Write article" 
               Icon={CalendarViewDayIcon} 
-              color="#70B5F9"
+              color="#03AC13"
             />
           </div>
       </div>
+      <Posts />
     </div>
   )
 }
