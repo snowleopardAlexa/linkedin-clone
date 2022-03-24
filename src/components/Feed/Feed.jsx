@@ -7,8 +7,8 @@ import EventNoteIcon from '@material-ui/icons/EventNote'
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
 import InputOption from './Posts/InputOption/InputOption'
 import Posts from './Posts/Posts'
-import { db } from '../../firebase'
-import firebase from 'firebase'
+import { db } from "../../firebase"
+import firebase from "firebase/compat/app"
 
 
 function Feed() {
@@ -17,16 +17,15 @@ function Feed() {
   const [posts, setPosts] = useState([])
   
   // push data to firebase
-  useEffect(() => {
-    db.collection("posts").onSnapshot(snapshot => (
-      setPosts(
-        snapshot.docs.map(doc => ({
-          id: doc.id,
-          data: doc.data(),
-        }
-      )))
-    ))
-  }, [])
+ useEffect(() => {
+   db.collection("posts").onSnapshot((snapshot) =>
+   setPosts(
+     snapshot.docs.map((doc) => ({
+       id: doc.id,
+       data: doc.data(),
+     }))
+   ))
+ }, [])
   
   // send post to firebase
   const sendPost = e => {
@@ -78,14 +77,15 @@ function Feed() {
             />
           </div>
       </div>
-      {posts.map((post) => (
-       <Posts />
+      {posts.map(({ id, data: { name, description, message, photoUrl }}) => (
+        <Posts 
+          key={id}
+          name={name}
+          description={description}
+          message={message}
+          photoUrl={photoUrl}
+        />
       ))}
-      <Posts 
-        name="Aleksandra Slomska"
-        description="This is a msg"
-        message="this works!"
-      />
     </div>
   )
 }

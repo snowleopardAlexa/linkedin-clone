@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
-import firebase from 'firebase'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyBVI34BvKzyW6JVsj0ZhxpoKCSCQFXtxtM",
@@ -10,7 +12,10 @@ const firebaseConfig = {
     appId: "1:566464857746:web:ef28268380ccd6876e884b"
   };
 
+  // initialize firebase App
   const firebaseApp = firebase.initializeApp(firebaseConfig)
+
+  // functions db and auth
   const db = firebaseApp.firestore()
   const auth = firebase.auth()
 
