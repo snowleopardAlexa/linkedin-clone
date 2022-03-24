@@ -38,6 +38,8 @@ function Feed() {
        photoUrl: '',
        timestamp: firebase.firestore.FieldValue.serverTimestamp()
      })
+
+     setInput("")
   }
 
   return (
@@ -61,7 +63,7 @@ function Feed() {
               color="#70B5F9"
             />
             <InputOption 
-              title="Photo" 
+              title="Video" 
               Icon={SubscriptionsIcon} 
               color="#E7A33E"
             />
