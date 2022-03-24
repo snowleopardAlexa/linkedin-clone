@@ -18,10 +18,10 @@ const register = () => {}
         <input placeholder="Profile pic URL (optional)" type="text" />
         <input placeholder="Email" type="text" />
         <input placeholder="Password" type="password" />
-        <butto type="submit">Sign In</butto>
+        <button type="submit" onClick={loginToApp}>Sign In</button>
       </form>
 
-      <p>Not a member?
+      <p>Not a member?{" "}
           <span 
             className="login__register" 
             onClick={register}
