@@ -1,5 +1,5 @@
 import './Feed.css'
-import CreateIcon from "@material-ui/core/Create"
+import CreateIcon from "@material-ui/icons/Create"
 
 function Feed() {
   return (
@@ -11,6 +11,9 @@ function Feed() {
                 <input type="text" />
                 <button type="submit">Send</button>
             </form>
+          </div>
+          <div className="feed__inputOptions">
+            <InputOption />
           </div>
       </div>
     </div>
