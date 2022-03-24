@@ -5,6 +5,7 @@ import Sidebar from './components/AppBody/Sidebar'
 import Feed from './components/Feed/Feed'
 import Header from './components/Header/Header'
 import Login from './components/Login/Login'
+import Widgets from './components/Widgets/Widgets'
 import { selectUser, login, logout } from './features/userSlice'
 import { auth } from './firebase'
 
@@ -40,6 +41,7 @@ useEffect(() => {
         <div className="app__body">
         <Sidebar />
         <Feed />
+        <Widgets />
       </div>
       )}
     </div>
