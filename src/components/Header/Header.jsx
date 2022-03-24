@@ -8,6 +8,15 @@ import ChatIcon from '@material-ui/icons/Chat'
 import NotificationsIcon from '@material-ui/icons/Notifications'
 
 const Header = () => {
+
+const dispatch = useDispatch()
+
+const logoutOfApp = () => {
+  dispatch(logout())
+  auth.signOut()
+}
+
+
   return (
     <div className="header">
       <div className="header__left">
@@ -25,7 +34,11 @@ const Header = () => {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={ChatIcon} title="Messaging" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-        <HeaderOption avatar="/avatar.jpg" title="me" />
+        <HeaderOption 
+          avatar="/avatar.jpg" 
+          title="me" 
+          onClick={logoutOfApp}
+        />
       </div>
     </div>
   )
