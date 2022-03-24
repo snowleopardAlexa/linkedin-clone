@@ -20,5 +20,10 @@
 }
 
 .post__info > h2 {
-    font-size: 15px;
+    font-size: 1rem;
+    color: black;
+}
+
+.post__info > p {
+    font-size: 0.9rem;
 }

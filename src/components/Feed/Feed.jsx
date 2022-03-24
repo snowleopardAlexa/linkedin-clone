@@ -7,6 +7,7 @@ import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay'
 import InputOption from './Posts/InputOption/InputOption'
 import Posts from './Posts/Posts'
 
+
 function Feed() {
   return (
     <div className="feed">
