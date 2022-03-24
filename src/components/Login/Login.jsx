@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Login.css'
-import { auth } from './firebase'
+import { auth } from '../../firebase'
 import { login } from '../../features/userSlice'
 
 const Login = () => {
@@ -36,6 +36,7 @@ const register = () => {
          }))
       })
   })
+  .catch((error) => alert(error.message))
 }
 
   return (
