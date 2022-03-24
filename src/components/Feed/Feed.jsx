@@ -41,7 +41,11 @@ function Feed() {
             />
           </div>
       </div>
-      <Posts />
+      <Posts 
+        name="Aleksandra Slomska"
+        description="This is a msg"
+        message="this works!"
+      />
     </div>
   )
 }
