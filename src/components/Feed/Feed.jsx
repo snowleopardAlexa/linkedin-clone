@@ -12,6 +12,10 @@ import Posts from './Posts/Posts'
 function Feed() {
 
   const [posts, setPosts] = useState([])
+  
+  const sendPost = e => {
+     e.preventDefault()
+  }
 
   return (
     <div className="feed">
@@ -20,7 +24,7 @@ function Feed() {
             <CreateIcon />
             <form>
                 <input type="text" />
-                <button type="submit">Send</button>
+                <button onClick={sendPost} type="submit">Send</button>
             </form>
           </div>
           <div className="feed__inputOptions">
