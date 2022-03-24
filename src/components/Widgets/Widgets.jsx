@@ -1,8 +1,14 @@
 import './Widgets.css'
+import InfoIcon from '@material-ui/icons/Info'
 
 const Widgets = () => {
   return (
-    <div>Widgets</div>
+    <div className="widgets">
+        <div className="widgets__header">
+            <h2>LinkedIn News</h2>
+            <InfoIcon />
+        </div>
+    </div>
   )
 }
 
