@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/snowleopardAlexa/medium-clone">
+  <a href="https://github.com/snowleopardAlexa/linkedin-clone">
     <img src="/public/linkedin.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
   <p align="center">
     This is a Linkedin Clone that represents basic functionality - user profile, login form, logout option, the ability to add a post. The project is built with React.js and Redux as a library for a state management. The posts are saved in the Firebase database where they can be deleted. 
     <br />
-    <a href="https://github.com/snowleopardAlexa/medium-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/snowleopardAlexa/linkedin-clone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://linkedin-clone-5ef14.web.app">View Demo</a>
@@ -39,8 +39,8 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#dependencies">Dependencies</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Medium-Clone
 
-![Alt text](/public/linkedin-clone.png?raw=true "Medium Clone")(https://medium-clone-snowleopardalexa.vercel.app/)
+![Alt text](/public/linkedin-clone.png?raw=true "Linkedin Clone")(https://linkedin-clone-snowleopardalexa.vercel.app/)
 
 ### Built With
 
@@ -72,15 +72,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To get a local copy up and running follow these simple example steps
 
 ### Installation
 
@@ -99,6 +91,19 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+Install these dependencies
+
+### Dependencies
+
+* @material-ui/core: "^4.12.3",
+* @material-ui/icons: "^4.11.2",
+* @reduxjs/toolkit: "^1.8.0",
+* firebase: "^9.6.9",
+* react: "^17.0.2",
+* react-dom: "^17.0.2",
+* react-flip-move: "^3.0.4",
+* react-redux: "^7.2.6",
 
 
 
