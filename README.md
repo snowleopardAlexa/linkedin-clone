@@ -90,10 +90,6 @@ To get a local copy up and running follow these simple example steps
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-Install these dependencies
-
 ### Dependencies
 
 * @material-ui/core: "^4.12.3",
@@ -105,7 +101,7 @@ Install these dependencies
 * react-flip-move: "^3.0.4",
 * react-redux: "^7.2.6",
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
