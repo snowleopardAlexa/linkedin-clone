@@ -18,9 +18,9 @@
     <br />
     <a href="https://linkedin-clone-5ef14.web.app">View Demo</a>
     ·
-    <a href="https://github.com/github_snowleopardAlexa/linkedin-clone/issues">Report Bug</a>
+    <a href="https://github.com/snowleopardAlexa/linkedin-clone/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_snowleopardAlexa/linkedin-clone/issues">Request Feature</a>
+    <a href="https://github.com/snowleopardAlexa/linkedin-clone/issues">Request Feature</a>
   </p>
 </div>
 
